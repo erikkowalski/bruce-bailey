@@ -1,0 +1,71 @@
+body {
+//	padding-top: 70px;
+}
+
+#tinymce {
+	padding-top: 0;
+}
+
+img[class*=align], img[class*=wp-image-] {
+	height: auto;
+}
+img.size-full {
+	max-width: 100%;
+	width: auto;
+}
+
+img.wp-post-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.admin-bar .navbar {
+	margin-top: 30px;
+}
+
+.page-header {
+	color: $brand-primary;
+}
+
+.carousel.fade {
+	opacity: 1;
+
+	.item
+	{
+		-moz-transition: opacity ease-in-out .7s;
+		-o-transition: opacity ease-in-out .7s;
+		-webkit-transition: opacity ease-in-out .7s;
+		transition: opacity ease-in-out .7s;
+		left: 0 !important;
+		opacity: 0;
+		top:0;
+		position:absolute;
+		width: 100%;
+		display:block !important;
+		//z-index:1;
+		&:first-child{
+			top:auto;
+			position:relative;
+		}
+
+		&.active
+		{
+			opacity: 1;
+			-moz-transition: opacity ease-in-out .7s;
+			-o-transition: opacity ease-in-out .7s;
+			-webkit-transition: opacity ease-in-out .7s;
+			transition: opacity ease-in-out .7s;
+			//z-index:2;
+		}
+	}
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+	filter:none !important;
+}
+
+
+
+
+
