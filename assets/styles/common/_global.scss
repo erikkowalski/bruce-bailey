@@ -1,5 +1,6 @@
 body {
-//	padding-top: 70px;
+	//border-top: 70px solid #c9c9c9;
+    padding-top: 70px;
 }
 
 #tinymce {
@@ -63,6 +64,24 @@ img.wp-post-image {
 .carousel-control.left, .carousel-control.right {
 	background-image:none !important;
 	filter:none !important;
+}
+
+.page-header {
+    color: black;
+    h1 {
+        font-family: $font-family-sans-serif;
+
+    }
+}
+
+.main {
+    font-family: $font-family-sans-serif-two;
+
+}
+
+.entry-title {
+    font-family: $font-family-sans-serif;
+
 }
 
 

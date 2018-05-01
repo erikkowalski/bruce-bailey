@@ -1,4 +1,4 @@
 <?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/page', 'header'); ?>
+ <img class="img-responsive" src="<?php the_field("home_image") ?>" alt="Grante Mountain">
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>

@@ -59,7 +59,8 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  "futura-pt","Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif-two:  "proxima-nova","Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       "Libre Baskerville","Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -386,8 +387,8 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             rgba(244, 244, 244, 0.81) !default;
-$navbar-default-bg:                rgba(240, 240, 240, 0.92) !default;
-$navbar-default-border:            #fff !default;
+$navbar-default-bg:                rgba(255, 255, 255, 0.91) !default;
+$navbar-default-border:            rgb(227, 227, 227) !default;
 
 // Navbar links
 $navbar-default-link-color:                #777 !default;
@@ -406,17 +407,17 @@ $navbar-default-brand-hover-bg:            transparent !default;
 // Navbar toggle
 $navbar-default-toggle-hover-bg:           #fff !default;
 $navbar-default-toggle-icon-bar-bg:        #888 !default;
-$navbar-default-toggle-border-color:       #ddd !default;
+$navbar-default-toggle-border-color:       rgba(255, 255, 255, 0) !default;
 
 
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
-$navbar-inverse-bg:                         #222 !default;
-$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-bg:                         rgba(34, 34, 34, 0.89) !default;
+$navbar-inverse-border:                     lighten($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;
+$navbar-inverse-link-color:                 lighten($gray-light, 45%) !default;
 $navbar-inverse-link-hover-color:           #fff !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
